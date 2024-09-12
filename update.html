@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.update-form {
+  background-color: #2196F3;
+  border-radius: 8px;
+  padding: 20px;
+  color: white;
+}
+
+.update-form h2 {
+  margin-top: 0;
+}
+
+.update-form input[type="radio"] {
+  margin-right: 10px;
+}
+
+.update-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <button class="button">Home</button>
+    <button class="button">LogOut</button>
+  </div>
+  <div class="update-form">
+    <h2>Update</h2>
+    <label>
+      <input type="radio" name="status" value="Received">
+      Received
+    </label>
+    <label>
+      <input type="radio" name="status" value="Ready for Shipping">
+      Ready for Shipping
+    </label>
+    <label>
+      <input type="radio" name="status" value="Out for Delivery">
+      Out for Delivery
+    </label>
+  </div>
+  <button class="button" onclick="updateStatus()">Update</button>
+</div>
+
+<script>
+function updateStatus() {
+  var selectedStatus = document.querySelector('input[name="status"]:checked').value;
+  // Here you would make an AJAX call to your backend to update the status
+  console.log("Selected Status:", selectedStatus);
+  alert("Status updated successfully!");
+}
+</script>
+
+</body>
+</html>

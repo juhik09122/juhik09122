@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightgray;
+}
+
+.container {
+  background-color: white;
+  border: 1px solid gray;
+  margin: 20px auto;
+  width: 80%;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.input-field {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 4px 2px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.header {
+  background-color: #3498DB;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.left-section {
+  width: 45%;
+  margin-right: 20px;
+}
+
+.right-section {
+  width: 45%;
+}
+
+.add-product-button {
+  background-color: #008CBA;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>Welcome 'Vendor Name'</h1>
+  </div>
+
+  <div class="row">
+    <div class="button">Product Status</div>
+    <div class="button">Request Item</div>
+    <div class="button">View Product</div>
+    <div class="button">Log Out</div>
+  </div>
+
+  <div class="row">
+    <div class="left-section">
+      <div class="input-field">Product Name</div>
+      <div class="input-field">Product Price</div>
+      <div class="input-field">Product Image</div>
+      <div class="row">
+        <div class="button add-product-button">Add The Product</div>
+      </div>
+    </div>
+
+    <div class="right-section">
+      <div class="row">
+        <div class="input-field">Product Image</div>
+        <div class="input-field">Product Name</div>
+        <div class="input-field">Product Price</div>
+        <div class="button">Action</div>
+      </div>
+
+      <div class="row">
+        <div class="input-field" style="height: 100px;">Image</div>
+        <div class="input-field">Image Name</div>
+        <div class="input-field">Rs/-</div>
+      </div>
+
+      <div class="row">
+        <div class="button" style="width: 100px;">Delete</div>
+        <div class="button" style="width: 100px;">Update</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

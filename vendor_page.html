@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.vendor-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.vendor {
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="button">Home</div>
+  <div class="button" style="float: right;">LogOut</div>
+
+  <div style="clear: both;"></div>
+
+  <div class="button" style="width: 50%; margin: 20px auto;">Vendor Florist</div>
+
+  <div class="vendor-container">
+    <div class="vendor">
+      <h3>Vender 1</h3>
+      <p>Contact Details</p>
+      <div class="button">Shop Item</div>
+    </div>
+    <div class="vendor">
+      <h3>Vender 2</h3>
+      <p>Contact Details</p>
+      <div class="button">Shop Item</div>
+    </div>
+    <div class="vendor">
+      <h3>Vender 3</h3>
+      <p>Contact Details</p>
+      <div class="button">Shop Item</div>
+    </div>
+    <div class="vendor">
+      <h3>Vender 4</h3>
+      <p>Contact Details</p>
+      <div class="button">Shop Item</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

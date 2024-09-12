@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+.table-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Product Status</h1>
+
+  <div class="button-row">
+    <button id="homeButton">Home</button>
+    <button id="logOutButton">LogOut</button>
+  </div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>E-Mail</th>
+        <th>Address</th>
+        <th>Status</th>
+        <th>Update</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody class="table-body">
+      </tbody>
+  </table>
+</div>
+
+<script>
+const homeButton = document.getElementById('homeButton');
+const logOutButton = document.getElementById('logOutButton');
+const tableBody = document.querySelector('.table-body');
+
+homeButton.addEventListener('click', () => {
+  alert('Home button clicked!');
+});
+
+logOutButton.addEventListener('click', () => {
+  alert('LogOut button clicked!');
+});
+
+// Function to add a new row to the table
+function addRow() {
+  const row = document.createElement('tr');
+  row.classList.add('row');
+
+  row.innerHTML = `
+    <td><input type="text" placeholder="Name"></td>
+    <td><input type="text" placeholder="E-Mail"></td>
+    <td><input type="text" placeholder="Address"></td>
+    <td><input type="text" placeholder="Status"></td>
+    <td><button>Update</button></td>
+    <td><button>Delete</button></td>
+  `;
+
+  tableBody.appendChild(row);
+}
+
+// Initial rows
+addRow();
+addRow();
+addRow();
+</script>
+</body>
+</html>
