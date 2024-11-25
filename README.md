@@ -1,31 +1,26 @@
-# 👋 Hi, I’m @juhik09122
+# 👋 Hi, I’m Juhi Kumari (@juhik09122)
 
-I’m Juhi Kumari, a passionate **coder** and tech enthusiast who loves building user-friendly, efficient, and scalable web solutions.
-
-## 👀 Interests
-- Exploring the latest in **frontend technologies**
-- Building impactful **web applications**
-- Solving problems through **clean and innovative code**
-
-## 🌱 Currently Learning
-- **React.js**: Enhancing my skills in building dynamic and interactive user interfaces.
-- Advanced **JavaScript** and **modern CSS techniques**.
-
-## 💞️ Open to Collaborate
-I’m looking forward to collaborating on:
-- Frontend web development projects
-- **Open Source contributions**
-- Building amazing products with **HTML**, **CSS**, **JavaScript**, and **React**
-
-## 📫 How to Reach Me
-- Email: [juhik0135@gmail.com](mailto:juhik0135@gmail.com)
-
-## 😄 Pronouns
-She/Her
-
-## ⚡ Fun Fact
-I enjoy creating visually appealing designs and experimenting with creative coding challenges. I also love learning about emerging technologies to keep up with the rapidly changing tech landscape!
+- 👀 I’m interested in building innovative web applications and exploring new technologies.
+- 🌱 I’m currently learning **React.js** and enhancing my skills in frontend development.
+- 💞️ I’m looking to collaborate on projects involving **HTML, CSS, JavaScript**, and **React**.
+- 📫 How to reach me: **[juhik0135@gmail.com](mailto:juhik0135@gmail.com)**
+- 😄 Pronouns: She/Her
+- ⚡ Fun fact: I love discovering creative solutions to challenging problems and enjoy debugging as much as coding!
 
 ---
 
-✨ **Let’s build something awesome together!** ✨
+## 🛠️ Technologies & Tools
+- **Frontend**: HTML, CSS, JavaScript, React.js
+- **Version Control**: Git, GitHub
+- **Design**: Basic UI/UX understanding with responsive design
+
+---
+
+### 🌟 What I Do:
+- **Coding Enthusiast**: Passionate about clean, efficient, and maintainable code.
+- **Problem Solver**: Constantly seeking opportunities to solve real-world problems through technology.
+- **Lifelong Learner**: Exploring new frameworks and best practices to stay updated in the tech world.
+
+---
+
+💻 Let's connect and collaborate on exciting projects! 🚀
