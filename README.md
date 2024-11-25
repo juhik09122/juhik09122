@@ -3,7 +3,7 @@
 - 👀 I’m interested in building innovative web applications and exploring new technologies.
 - 🌱 I’m currently learning **React.js** and enhancing my skills in frontend development.
 - 💞️ I’m looking to collaborate on projects involving **HTML, CSS, JavaScript**, and **React**.
-- 📫 How to reach me: **[juhik0135@gmail.com](mailto:juhik0135@gmail.com)**
+- 📫 How to reach me: **[juhik0135@gmail.com](mailto:juhik0135@gmail.com)** **https://www.linkedin.com/in/juhi-kumari-10b2a4315/**
 - 😄 Pronouns: She/Her
 - ⚡ Fun fact: I love discovering creative solutions to challenging problems and enjoy debugging as much as coding!
 
